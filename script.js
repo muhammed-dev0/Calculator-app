@@ -20,7 +20,7 @@ parent.addEventListener("click", function (event) {
         input.value += buttons.innerText;
     } else if(buttonTip === "operator") {
         input.value += buttons.innerText
-        islem = ToLoweCase (buttons.innerText)
+        islem = buttons.innerText
     } else if (buttonTip === "equals") {
         let tamMetin = input.value;
         let parcala = tamMetin.split(islem)
